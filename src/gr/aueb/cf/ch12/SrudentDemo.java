@@ -1,7 +1,6 @@
 package gr.aueb.cf.ch12;
 
 public class SrudentDemo {
-
     public static void main(String[] args) {
         Student student = new Student();            // Invoke Default Constructor
         Student bob = new Student(2, "Bob", "D.");  // Invoke Overloaded Constructs and populate instance

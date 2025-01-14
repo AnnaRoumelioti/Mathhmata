@@ -58,5 +58,4 @@ public class Student {
     public void setLastname(String lastname) {
         this.lastname = lastname;
     }
-
 }

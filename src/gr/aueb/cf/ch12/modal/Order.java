@@ -5,6 +5,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.UUID;
 
 public class Order {    private int id;
+    private int id;
     private String uuid;
     private double amount;
     private String description;
@@ -81,4 +82,4 @@ public class Order {    private int id;
     public void setFormattedTimestamp(String formattedTimestamp) {
         this.formattedTimestamp = formattedTimestamp;
     }
-    }
+}
