@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.UUID;
 
-public class Order {    private int id;
+public class Order {
     private int id;
     private String uuid;
     private double amount;
