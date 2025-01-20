@@ -91,7 +91,7 @@ public class Account {
      * @param amount        the amount of money to be deposited.
      * @throws Exception    if the amount is negative.
      */
-    public void deposit(double amount) throws gr.aueb.cf.ch13.NegativeAmountException {
+    public void deposit(double amount) throws NegativeAmountException {
         try {
             if (amount < 0) {
                 //throw new Exception("The amount must not be negative.");
